@@ -144,6 +144,9 @@ This implementation is designed to achieve:
 - **SEO Score:** 90+ (Lighthouse)
 - **Accessibility Score:** 90+ (Lighthouse)
 - **Best Practices Score:** 90+ (Lighthouse)
+And it achieved it:
+
+<img width="534" height="774" alt="Screenshot 2026-01-30 at 7 50 06 PM" src="https://github.com/user-attachments/assets/7d53e835-310b-4405-8158-f3766e0a69ee" />
 
 ### Performance Optimizations Applied
 
