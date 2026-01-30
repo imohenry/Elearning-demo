@@ -38,7 +38,7 @@ A high-performance, SEO-optimized Course Detail page built with Next.js App Rout
 - Mobile-responsive viewport
 - Fast page load times
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 course-detail-page/
@@ -59,31 +59,25 @@ course-detail-page/
 └── package.json
 ```
 
-## 🛠️ Tech Stack
+<!-- ## Tech Stack
 
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Rendering:** Server-Side Rendering (SSR)
-- **Data:** Mock async data fetching
+- **Data:** Mock async data fetching -->
 
-## 📦 Installation
+## Installation
 
 ```bash
-# Install dependencies
+
 npm install
-
-# Run development server
 npm run dev
-
-# Build for production
 npm run build
-
-# Start production server
 npm start
 ```
 
-## 🌐 Usage
+## Usage
 
 Visit the following URLs to see the course detail pages:
 
@@ -92,7 +86,7 @@ Visit the following URLs to see the course detail pages:
 - `http://localhost:3000/course/3` - Machine Learning Fundamentals
 - `http://localhost:3000/course/999` - Not Found (404) example
 
-## 🎯 Key Implementation Details
+## Key Implementation Details
 
 ### Dynamic Metadata Generation
 
@@ -161,7 +155,7 @@ This implementation is designed to achieve:
 6. **Static Generation** - Can be enabled with `generateStaticParams`
 7. **No External Resources** - All assets are local or optimized
 
-## 🔍 SEO Features
+## SEO Features
 
 ### Meta Tags
 - Title tag with template
@@ -184,7 +178,7 @@ This implementation is designed to achieve:
 - Descriptive link text
 - Alt attributes on images
 
-## 🧪 Testing
+## Testing
 
 To verify SEO and performance:
 
@@ -196,19 +190,19 @@ To verify SEO and performance:
    - Run audit for Performance, SEO, Accessibility
 
 3. **Meta Tags Checker**: https://metatags.io/
-   - Enter your page URL to preview social media cards
+   - Enter the page URL to preview social media cards
 
 4. **Page Speed Insights**: https://pagespeed.web.dev/
    - Test Core Web Vitals scores
 
-## 📝 Code Quality
+<!-- ## 📝 Code Quality
 
 - **TypeScript** for type safety
 - **Server Components** as default (better performance)
 - **Client Components** only when needed (interactivity)
 - **Async/Await** for data fetching
 - **Error Handling** with not-found.tsx
-- **Clean Architecture** with separation of concerns
+- **Clean Architecture** with separation of concerns -->
 
 ## 🔄 Extending the Project
 
@@ -235,21 +229,21 @@ export async function generateStaticParams() {
 }
 ```
 
-### Adding Revalidation (ISR)
+<!-- ### Adding Revalidation (ISR)
 
 Add to the page component:
 
 ```typescript
-export const revalidate = 3600; // Revalidate every hour
+export const revalidate = 3600; // Revalidate every hour -->
 ```
 
-## 📚 Resources
-
+<!-- ## 📚 Resources -->
+<!-- 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Next.js Metadata API](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
 - [Schema.org Course](https://schema.org/Course)
 - [Google Search Central - Structured Data](https://developers.google.com/search/docs/appearance/structured-data)
-- [Core Web Vitals](https://web.dev/vitals/)
+- [Core Web Vitals](https://web.dev/vitals/) -->
 
 ## ✅ Assessment Requirements Checklist
 
